@@ -1,0 +1,41 @@
+.recruiterItem__container{
+    width: 90%;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    .recruiterItem__logoDetails{
+
+        display: flex;
+        align-items: center;
+    .recruiterItem__logo{
+        border-radius: 20px;
+        width: 40px;
+        height: 40px;
+        margin-right: 40px;
+    }
+}
+    .recruiterItem__details{
+        
+        .recruiterItem__name{
+            font-weight: 700px;
+            line-height: 24px;
+            font-style: bold;
+        }
+        .recruiterItem__hiringEmail{
+            display: flex;
+            justify-content: space-between;
+            color: grey;
+            .recruiterItem__hiring{
+                margin-right: 20px;
+            }
+        }
+    }
+
+    .recruiterItem__dropdownDelete{
+        display: flex;
+        align-items: center;
+    }
+}

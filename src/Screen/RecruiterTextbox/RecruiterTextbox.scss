@@ -1,0 +1,19 @@
+@mixin display-flex{
+    display: flex;
+    align-items: center;
+}
+.recruiterTextBox__container {
+    @include display-flex();
+    width: 100%;
+  
+  .recruiterTextBox__inputTag {
+      width: 100%;
+  }
+  .recruiterTextBox__dropdown{
+      width: 10%;
+      height: 40px;
+      display: flex;
+      align-items: center;
+
+  }
+}
